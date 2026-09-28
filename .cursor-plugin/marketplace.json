@@ -1,0 +1,17 @@
+{
+  "name": "postdaily",
+  "owner": {
+    "name": "PostDaily",
+    "email": "support@postdaily.app"
+  },
+  "metadata": {
+    "description": "PostDaily's plugins for Cursor."
+  },
+  "plugins": [
+    {
+      "name": "postdaily",
+      "source": "./plugins/postdaily",
+      "description": "Draft, schedule and publish social posts from Cursor with PostDaily."
+    }
+  ]
+}

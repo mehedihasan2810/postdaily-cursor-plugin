@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeMCPExecution": [
+      {
+        "command": "sh \"${CURSOR_PLUGIN_ROOT}/hooks/confirm-publish.sh\"",
+        "timeout": 10
+      }
+    ]
+  }
+}

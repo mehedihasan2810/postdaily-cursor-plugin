@@ -1,0 +1,29 @@
+{
+  "name": "postdaily",
+  "displayName": "PostDaily",
+  "version": "1.0.0",
+  "description": "Draft, schedule and publish social posts from Cursor with PostDaily — Instagram, Facebook, TikTok, YouTube, LinkedIn, X, Threads, Pinterest, Bluesky and Mastodon. Upload local images and videos, turn a release into posts, and confirm before anything publishes.",
+  "author": {
+    "name": "PostDaily",
+    "email": "support@postdaily.app"
+  },
+  "publisher": "PostDaily",
+  "homepage": "https://www.postdaily.app/help/connect-ai-apps",
+  "repository": "https://github.com/mehedihasan2810/postdaily-cursor-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "postdaily",
+    "social media",
+    "scheduling",
+    "publishing",
+    "instagram",
+    "linkedin",
+    "mcp"
+  ],
+  "category": "integrations",
+  "tags": ["postdaily", "social media", "scheduling", "mcp"],
+  "mcpServers": "./mcp.json",
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json"
+}

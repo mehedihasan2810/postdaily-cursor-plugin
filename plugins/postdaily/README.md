@@ -11,14 +11,17 @@ You need a PostDaily account with at least one connected social channel.
 
 ## Install and connect
 
-1. Open **Cursor Settings → Plugins**, search for **PostDaily** and select
-   **Install**. Or run `/add-plugin postdaily` in chat.
-2. Open **Cursor Settings → Tools & MCPs** and connect **postdaily**.
+1. Open **Cursor Settings → Customize**, select **Browse Marketplace**,
+   search for **PostDaily** and select **Install**. Or run
+   `/add-plugin postdaily` in chat.
+2. In **Cursor Settings → Customize → MCPs**, select **Authenticate** next to
+   **postdaily**.
 3. PostDaily opens in your browser: sign in, pick the workspaces Cursor may
    use and what it can do (Full access, Drafts only or Read only).
 
 Change or revoke the connection any time in PostDaily under
-**Settings → AI agents**.
+**Settings → AI agents**. To sign out in Cursor, open **postdaily** under
+**Customize → MCPs** and select **Logout**.
 
 ## What you get
 

@@ -7,9 +7,9 @@ description: Use when the user wants to write, draft, schedule, publish, resched
 
 PostDaily's tools come from the `postdaily` MCP server this plugin adds. If
 they are not available yet, the user has not signed in: ask them to open
-Cursor Settings → Tools & MCPs and connect postdaily. PostDaily opens in the
-browser to choose workspaces and an access level; after that the tools just
-work.
+Cursor Settings → Customize → MCPs and select Authenticate next to
+postdaily. PostDaily opens in the browser to choose workspaces and an access
+level; after that the tools just work.
 
 ## Before writing anything
 
@@ -62,5 +62,5 @@ work.
 
 A connection is Full access, Drafts only or Read only, and only sees the tools
 its level allows. If a tool you need is missing, tell the user to reconnect
-with a higher level: disconnect postdaily in Cursor Settings → Tools & MCPs,
-connect again and choose it on the consent page.
+with a higher level: open postdaily under Cursor Settings → Customize → MCPs,
+select Logout, then Authenticate again and choose it on the consent page.

@@ -13,8 +13,9 @@ what it sends.
 
 ## Install
 
-- **Cursor Marketplace**: open **Cursor Settings → Plugins**, search for
-  PostDaily and select **Install**, or run `/add-plugin postdaily` in chat.
+- **Cursor Marketplace**: open **Cursor Settings → Customize**, select
+  **Browse Marketplace**, search for PostDaily and select **Install**, or run
+  `/add-plugin postdaily` in chat.
 - **Team marketplace**: an admin can add
   `https://github.com/mehedihasan2810/postdaily-cursor-plugin` under
   **Dashboard → Plugins & MCPs → Add Marketplace → Import from Repo**.
@@ -27,10 +28,10 @@ what it sends.
 
   then run **Developer: Reload Window**.
 
-Then open **Cursor Settings → Tools & MCPs** and connect **postdaily**.
-PostDaily opens in your browser: pick the workspaces Cursor may use and what
-it can do (Full access, Drafts only or Read only). Change or revoke it any
-time in PostDaily under **Settings → AI agents**.
+Then, in **Cursor Settings → Customize → MCPs**, select **Authenticate**
+next to **postdaily**. PostDaily opens in your browser: pick the workspaces
+Cursor may use and what it can do (Full access, Drafts only or Read only).
+Change or revoke it any time in PostDaily under **Settings → AI agents**.
 
 ## Development
 

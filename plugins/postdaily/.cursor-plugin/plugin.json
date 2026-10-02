@@ -1,8 +1,11 @@
 {
   "name": "postdaily",
   "displayName": "PostDaily",
-  "version": "1.0.0",
-  "description": "Draft, schedule and publish social posts from Cursor with PostDaily — Instagram, Facebook, TikTok, YouTube, LinkedIn, X, Threads, Pinterest, Bluesky and Mastodon. Upload local images and videos, turn a release into posts, and confirm before anything publishes.",
+  "version": "1.1.0",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Draft, schedule and publish social media posts from Cursor with PostDaily — Instagram, Facebook, TikTok, YouTube, X, Threads, Pinterest, Bluesky and Mastodon. Attach local images and videos, turn a release into posts, and confirm before anything publishes.",
   "author": {
     "name": "PostDaily",
     "email": "support@postdaily.app"
@@ -18,7 +21,7 @@
     "scheduling",
     "publishing",
     "instagram",
-    "linkedin",
+    "tiktok",
     "mcp"
   ],
   "category": "integrations",

@@ -2,14 +2,19 @@
 
 Draft, schedule and publish social media posts from Cursor with
 [PostDaily](https://www.postdaily.app) — Instagram, Facebook, TikTok, YouTube,
-LinkedIn, X, Threads, Pinterest, Bluesky and Mastodon.
+X, Threads, Pinterest, Bluesky and Mastodon. Publishing a post immediately
+always asks for your confirmation first.
 
-You need a PostDaily account — every plan includes AI agent access.
+You need a PostDaily account with at least one connected social channel.
+
+The plugin is in [`plugins/postdaily`](./plugins/postdaily): its
+[README](./plugins/postdaily/README.md) covers what it does, what it runs and
+what it sends.
 
 ## Install
 
-- **Cursor Marketplace**: open **Customize**, search for PostDaily and select
-  **Install** (once the listing is live).
+- **Cursor Marketplace**: open **Cursor Settings → Plugins**, search for
+  PostDaily and select **Install**, or run `/add-plugin postdaily` in chat.
 - **Team marketplace**: an admin can add
   `https://github.com/mehedihasan2810/postdaily-cursor-plugin` under
   **Dashboard → Plugins & MCPs → Add Marketplace → Import from Repo**.
@@ -22,25 +27,10 @@ You need a PostDaily account — every plan includes AI agent access.
 
   then run **Developer: Reload Window**.
 
-Then open **Cursor Settings → MCP** and select **Connect** next to postdaily.
+Then open **Cursor Settings → Tools & MCPs** and connect **postdaily**.
 PostDaily opens in your browser: pick the workspaces Cursor may use and what
 it can do (Full access, Drafts only or Read only). Change or revoke it any
 time in PostDaily under **Settings → AI agents**.
-
-## What you get
-
-- **PostDaily's MCP server** (`https://mcp.postdaily.app/mcp`): up to 20 tools
-  for channels, posts, the queue, media and analytics, plus prompts such as
-  planning a week of posts.
-- **Skills**: `posting` (drafts by default, one text per network, validation,
-  a clear yes before publishing now), `local-media` (upload an image, video
-  or PDF from your machine) and `release-posts` (turn a repository's recent
-  changes into per-network drafts).
-- **A confirmation hook** (`beforeMCPExecution`): Cursor asks you before a
-  PostDaily call publishes immediately, retries a failed post, deletes or
-  cancels a post, or schedules a batch. Drafts, reads and a single scheduled
-  post follow your usual Cursor settings, and other MCP servers are never
-  touched.
 
 ## Development
 
@@ -65,6 +55,7 @@ batches, and `{}` (no opinion) for everything else.
 ## Help
 
 - [Connecting AI apps to PostDaily](https://www.postdaily.app/help/connect-ai-apps)
+- [Privacy policy](https://www.postdaily.app/privacy)
 - support@postdaily.app
 
 ## License

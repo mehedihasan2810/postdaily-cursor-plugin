@@ -36,7 +36,8 @@ Change or revoke the connection any time in PostDaily under
     into per-network drafts announcing a release.
 - **A confirmation hook** (`beforeMCPExecution`): Cursor asks you before a
   PostDaily call publishes immediately, retries a failed post, deletes or
-  cancels a post, or schedules a batch. Drafts, reads and a single scheduled
+  cancels a post, schedules a batch, or writes into one of your workspaces
+  just after working in another. Drafts, reads and a single scheduled
   post follow your usual Cursor settings, and other MCP servers are never
   touched.
 

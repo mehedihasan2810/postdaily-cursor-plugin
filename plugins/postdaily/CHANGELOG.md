@@ -2,6 +2,13 @@
 
 All notable changes to this plugin are documented here.
 
+## 1.1.1
+
+- The confirmation hook also asks before a write that carries
+  `confirmCrossWorkspace: true`: PostDaily refuses a write into one workspace
+  soon after the agent worked in another until the person agrees.
+- `posting`: what to do when a write comes back `NEEDS_CONFIRMATION`.
+
 ## 1.1.0
 
 - Requires Cursor 3.13.0 or later (`minClientVersions`).
